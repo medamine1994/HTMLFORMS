@@ -1,0 +1,72 @@
+body{
+    background-color:rgb(0, 204, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span{
+    color: white;
+}
+.container{
+    max-width:1170px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+    padding:1em;
+ 
+}
+.bold{
+    font-weight: bold;
+    font-size: 18px;
+    color: blue;
+}
+.fix{
+position: absolute;
+  bottom: 7px;
+  left: 95px;
+}
+.ptwo{
+    padding-left: 20px;
+    font-weight: bold;
+    color: red;
+    font-size: 1.5vw;
+}
+    ul{ font-weight: bold;}
+.fbox{
+    width: 32%;
+    background-color: rgb(127, 255, 195);
+}
+.sbox{
+    width: 68%;
+   background-color:white;
+   height: 125%;
+}
+.sbox form button, .sbox form input, .sbox form textarea{
+    width:100%;
+    padding:1em;
+    border:1px solid #c9e6ff;
+  }
+  .sbox form button{
+    background:#c9e6ff;
+    border:0;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+ .fbox{
+     float: left;
+ } 
+  .sbox{
+     float: right;
+    
+ } 
+ #name{
+    padding-top: 20px;
+    color: blue;
+    font-size: 2vw;
+    font-style: italic;
+ }
+ table,p{
+     padding-left:5%;
+     padding-right: 5%;
+ }
+ .sbox form label{
+     font-weight: bold;
+ }
